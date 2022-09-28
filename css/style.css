@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{ 
+    /* Background Color */
+    --bg-danger:#f63440;
+    --bg-white:#fff;
+    --bg-light-white:#f5f5f5;
+
+    /* Text Color */
+    --primary-font:"Poppins", sans-serif;
+    --text-white:#fff;
+    --text-black:#121212; 
+    --text-danger:#f63440; 
+    --text-gray:#aaa;
+    --text-dark-gray:#777;
+}
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    background:var(--bg-white);
+    color: var(--text-black);
+    overflow-x:hidden;
+}
+#header .navbar-nav .nav-item .nav-link{
+    color:var(--text-black);
+    padding:0.5rem 1rem;
+    text-align: center;
+}
+#header .navbar-nav .nav-item .nav-link:hover,
+#header .navbar-nav .nav-item .nav-link.active{
+    color:var(--bs-success);
+}
+.box{
+    widows: 100px;
+    max-height:auto;
+    transition: color; 
+    background-color:ghostwhite;  
+}
+.box:hover {
+    background-color:#6c757d;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+}
+.bestpro{
+    widows: 100px;
+   max-height: auto; 
+   transition: size;    
+}
+.bestpro:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+/*custer section css*/
+.custmer{
+    width: 100%;
+   max-height: auto;
+   
+    background-color:#87cefa29;
+}
+.gallery{
+    width: 100%;
+    max-height: auto;
+        transition: size;
+}
+.gallery1{
+    transition: size;
+}
+.gallery1:hover{
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.footer{
+    width: 100%;
+   max-height: auto;
+    background-position: center;
+    background-image: url(https://www.fergusonfoundation.org/wp-content/uploads/2021/08/webIncredible-Journey-Water-Cycle-aspect-ratio-374-264.jpg);
+}
+
